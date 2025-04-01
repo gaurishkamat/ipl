@@ -1,6 +1,13 @@
 package com.cricket.ipl.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+@Data
+@Entity
 public class Team {
+    @Id
     private int Id;
     private String name;
     private int titlesWon;

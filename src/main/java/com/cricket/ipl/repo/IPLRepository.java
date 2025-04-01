@@ -3,7 +3,6 @@ package com.cricket.ipl.repo;
 import com.cricket.ipl.model.Team;
 import org.springframework.stereotype.Repository;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
